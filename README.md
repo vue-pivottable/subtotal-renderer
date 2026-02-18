@@ -8,19 +8,19 @@ Supports both **Vue 2** and **Vue 3**.
 
 ### Vue 3 - Subtotal Table
 
-![Vue 3 Example](docs/screenshot-vue3.png)
+![Vue 3 Example](examples/screenshot-vue3.png)
 
 ### Vue 3 - With UI
 
-![Vue 3 UI Example](docs/screenshot-vue3-ui.png)
+![Vue 3 UI Example](examples/screenshot-vue3-ui.png)
 
 ### Vue 2 - Subtotal Table
 
-![Vue 2 Example](docs/screenshot-vue2.png)
+![Vue 2 Example](examples/screenshot-vue2.png)
 
 ### Vue 2 - With UI
 
-![Vue 2 UI Example](docs/screenshot-vue2-ui.png)
+![Vue 2 UI Example](examples/screenshot-vue2-ui.png)
 
 ## Features
 
@@ -275,12 +275,12 @@ cd vue3-pivottable/subtotal-renderer
 npm install
 
 # Run Vue 3 example
-cd example/vue3
+cd examples/vue3
 npm install
 npm run dev
 
 # Run Vue 2 example (in another terminal)
-cd example/vue2
+cd examples/vue2
 npm install
 npm run dev
 ```

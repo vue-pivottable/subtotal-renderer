@@ -22,6 +22,6 @@ npm-debug.log*
 .playwright-mcp/
 
 # Example outputs
-example/**/.nuxt/
-example/**/.output/
-example/**/node_modules/
+examples/**/dist/
+examples/**/node_modules/
+examples/**/.vite/

@@ -1,0 +1,19 @@
+{
+  "name": "subtotal-renderer-vue2-example",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue-pivottable/subtotal-renderer": "^0.1.0",
+    "vue": "^2.7.16",
+    "vue-pivottable": "^0.4.50"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.3.0",
+    "vite": "^5.0.0"
+  }
+}
