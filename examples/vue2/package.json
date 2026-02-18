@@ -10,7 +10,7 @@
   "dependencies": {
     "@vue-pivottable/subtotal-renderer": "^0.2.2-beta.1",
     "vue": "^2.7.16",
-    "vue-pivottable": "^0.4.50"
+    "vue-pivottable": "^0.4.71"
   },
   "devDependencies": {
     "@vitejs/plugin-vue2": "^2.3.0",
