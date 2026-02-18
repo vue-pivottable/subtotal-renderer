@@ -54,16 +54,25 @@ export function generateRowKeysWithSubtotals(rowKeys, rowAttrsCount, collapsedKe
       if (!addedSubtotals.has(subtotalKeyStr)) {
         addedSubtotals.add(subtotalKeyStr)
 
-        // Check if this subtotal level is collapsed
-        const isCollapsed = collapsedKeys.has(subtotalKeyStr)
+        // Check if parent of this subtotal is collapsed
+        let subtotalHidden = false
+        for (let parentLevel = 1; parentLevel < level; parentLevel++) {
+          const parentKey = subtotalKey.slice(0, parentLevel)
+          if (collapsedKeys.has(JSON.stringify(parentKey))) {
+            subtotalHidden = true
+            break
+          }
+        }
 
-        // Add subtotal marker
-        result.push({
-          key: subtotalKey,
-          isSubtotal: true,
-          level: level,
-          isCollapsed: isCollapsed
-        })
+        if (!subtotalHidden) {
+          const isCollapsed = collapsedKeys.has(subtotalKeyStr)
+          result.push({
+            key: subtotalKey,
+            isSubtotal: true,
+            level: level,
+            isCollapsed: isCollapsed
+          })
+        }
       }
     }
 
@@ -71,7 +80,8 @@ export function generateRowKeysWithSubtotals(rowKeys, rowAttrsCount, collapsedKe
     let isHidden = false
     for (let level = 1; level < rowKey.length; level++) {
       const parentKey = rowKey.slice(0, level)
-      if (collapsedKeys.has(JSON.stringify(parentKey))) {
+      const parentKeyStr = JSON.stringify(parentKey)
+      if (collapsedKeys.has(parentKeyStr)) {
         isHidden = true
         break
       }
