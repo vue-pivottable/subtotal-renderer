@@ -25,3 +25,7 @@ npm-debug.log*
 examples/**/dist/
 examples/**/node_modules/
 examples/**/.vite/
+
+# Lockfiles (examples use latest dependencies)
+pnpm-lock.yaml
+package-lock.json
