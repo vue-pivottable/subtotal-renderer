@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vue-pivottable/subtotal-renderer':
-        specifier: ^0.1.0
-        version: 0.1.0(vue-pivottable@0.4.70(vue@2.7.16))(vue@2.7.16)
+        specifier: ^0.2.0
+        version: 0.2.1(vue-pivottable@0.4.70(vue@2.7.16))(vue@2.7.16)
       vue:
         specifier: ^2.7.16
         version: 2.7.16
@@ -317,8 +317,8 @@ packages:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
       vue: ^2.7.0-0
 
-  '@vue-pivottable/subtotal-renderer@0.1.0':
-    resolution: {integrity: sha512-FuhADcSJNphgJa7UgEh9nankfQiQ4GV2ROfeSRJ+GDh+57NJ7RwiWWin+vNmfOuDmxu7YTdAav0y+qDhGqo+Zg==}
+  '@vue-pivottable/subtotal-renderer@0.2.1':
+    resolution: {integrity: sha512-Yk4qFOTqqzU5VCRnIPQfGkw0ogdqkaUgpkZWAhMQQ6pi7K4sswVj5HNH4ZdcG9CsYDbQelNLqXtxnO5DjXAAPg==}
     peerDependencies:
       vue: ^2.6.0 || ^3.0.0
       vue-pivottable: '>=0.4.0'
@@ -582,7 +582,7 @@ snapshots:
       vite: 5.4.21
       vue: 2.7.16
 
-  '@vue-pivottable/subtotal-renderer@0.1.0(vue-pivottable@0.4.70(vue@2.7.16))(vue@2.7.16)':
+  '@vue-pivottable/subtotal-renderer@0.2.1(vue-pivottable@0.4.70(vue@2.7.16))(vue@2.7.16)':
     dependencies:
       vue: 2.7.16
       vue-pivottable: 0.4.70(vue@2.7.16)
