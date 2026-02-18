@@ -4,6 +4,11 @@ Subtotal renderer for [vue-pivottable](https://github.com/Seungwoo321/vue-pivott
 
 Supports both **Vue 2** and **Vue 3**.
 
+## Demo
+
+- [Vue 3 Demo](https://subtotal-vue3.pages.dev/)
+- [Vue 2 Demo](https://subtotal-vue2.pages.dev/)
+
 ## Screenshots
 
 ### Vue 3 - Subtotal Table
@@ -33,7 +38,7 @@ Supports both **Vue 2** and **Vue 3**.
 ## Installation
 
 ```bash
-npm install @vue-pivottable/subtotal-renderer
+pnpm add @vue-pivottable/subtotal-renderer
 ```
 
 ## Usage
@@ -266,23 +271,23 @@ The renderer adds specific CSS classes for styling:
 
 ```bash
 # Clone the repository
-git clone https://github.com/user/vue3-pivottable.git
+git clone https://github.com/vue-pivottable/subtotal-renderer.git
 
 # Navigate to the subtotal-renderer package
-cd vue3-pivottable/subtotal-renderer
+cd subtotal-renderer
 
 # Install dependencies
-npm install
+pnpm install
 
 # Run Vue 3 example
 cd examples/vue3
-npm install
-npm run dev
+pnpm install
+pnpm dev
 
 # Run Vue 2 example (in another terminal)
 cd examples/vue2
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 ## Requirements

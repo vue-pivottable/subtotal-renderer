@@ -1,6 +1,6 @@
 {
   "name": "@vue-pivottable/subtotal-renderer",
-  "version": "0.2.1",
+  "version": "0.2.2-beta.3",
   "description": "Subtotal renderer for vue-pivottable with expand/collapse support. Supports Vue 2 and Vue 3.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -43,8 +43,13 @@
     "url": "https://github.com/vue-pivottable/subtotal-renderer.git"
   },
   "peerDependencies": {
-    "vue": "^2.6.0 || ^3.0.0",
-    "vue-pivottable": ">=0.4.0"
+    "vue": "^2.7.0 || ^3.0.0",
+    "vue-pivottable": "^0.4.0 || ^1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": false
+    }
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.4",

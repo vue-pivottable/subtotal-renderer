@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.2.2-beta.3](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.2-beta.2...v0.2.2-beta.3) (2026-02-18)
+
+## [0.2.2-beta.2](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.2-beta.1...v0.2.2-beta.2) (2026-02-18)
+
+## [0.2.2-beta.1](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.2-beta.0...v0.2.2-beta.1) (2026-02-18)
+
+### Documentation
+
+* update installation commands and repository URLs ([28fcb90](https://github.com/vue-pivottable/subtotal-renderer/commit/28fcb90d31673f2c53ce937dd83d4d321c0efc12))
+
+## [0.2.2-beta.0](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.1...v0.2.2-beta.0) (2026-02-18)
+
+### Refactoring
+
+* **examples:** remove local path aliases from vite config ([7ed2f8c](https://github.com/vue-pivottable/subtotal-renderer/commit/7ed2f8ce6c974e633584ffe2079168adda79fff7))
+
 ## [0.2.1](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.1-beta.0...v0.2.1) (2026-02-18)
 
 ## [0.2.1-beta.0](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.0...v0.2.1-beta.0) (2026-02-18)
