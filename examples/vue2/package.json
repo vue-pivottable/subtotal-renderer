@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vue-pivottable/subtotal-renderer": "^0.1.0",
+    "@vue-pivottable/subtotal-renderer": "^0.2.0",
     "vue": "^2.7.16",
     "vue-pivottable": "^0.4.50"
   },
