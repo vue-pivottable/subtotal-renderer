@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.3-beta.1](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.3-beta.0...v0.2.3-beta.1) (2026-02-20)
+
+## [0.2.3-beta.0](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.2...v0.2.3-beta.0) (2026-02-18)
+
+### Documentation
+
+* remove deployment guide ([f2a1e0f](https://github.com/vue-pivottable/subtotal-renderer/commit/f2a1e0f845a4e8d23a5d8bd258b16f93812dd589))
+
 ## [0.2.2](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.2-beta.3...v0.2.2) (2026-02-18)
 
 ## [0.2.2-beta.3](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.2-beta.2...v0.2.2-beta.3) (2026-02-18)
