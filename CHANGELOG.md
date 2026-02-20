@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.2.3-beta.1](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.3-beta.0...v0.2.3-beta.1) (2026-02-20)
+
 ## [0.2.3-beta.0](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.2...v0.2.3-beta.0) (2026-02-18)
 
 ### Documentation
