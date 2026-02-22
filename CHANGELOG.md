@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.4-beta.0](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.3...v0.2.4-beta.0) (2026-02-22)
+
+### Documentation
+
+* add UI screenshots ([3e2efd7](https://github.com/vue-pivottable/subtotal-renderer/commit/3e2efd74b87442f794a7507d4d87307b486fad29))
+
 ## [0.2.3](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.3-beta.1...v0.2.3) (2026-02-20)
 
 ## [0.2.3-beta.1](https://github.com/vue-pivottable/subtotal-renderer/compare/v0.2.3-beta.0...v0.2.3-beta.1) (2026-02-20)
