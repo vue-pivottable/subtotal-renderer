@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vue-pivottable/subtotal-renderer": "^0.2.2-beta.1",
+    "@vue-pivottable/subtotal-renderer": "beta",
     "vue": "^3.4.0",
     "vue-pivottable": "^1.3.0"
   },
